@@ -17,4 +17,68 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 
 /*-----------------------------------------------------------------------------BODY-----*/
 body{	
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+}
+
+
+/* ------------------------------------------------------------------------------Header------- */
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+
+.header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;    
+    color: #000000;
+    margin-right: 93px;
+}
+
+.header-logo > span{
+    color: #2196F3;
+}
+.nav-list {
+    display: flex;
+    gap: 50px;
+   
+}
+.nav-list a{
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.header-links{
+    display: flex;
+    gap: 30px;
+}
+.header-links > a{
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;    
+    color: #757575;
+}
+
+main{
+    height: 100%;
+}
+
+footer {
+    height: 100px;
+    background-color: #2F303A;
 }
