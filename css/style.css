@@ -80,9 +80,7 @@ header{
     color: #757575;
 }
 
-main{
-    height: 100%;
-}
+
 /* ------------------------------------------------------------------------------section Hero------- */
 .hero {
     height: 600px;
@@ -285,13 +283,32 @@ h1{
     align-items: center;
 }
 
-/* ------------------------------------------------------------------------------4------- */
+/* ------------------------------------------------------------------------------Clients------- */
+.clients {
+    padding: 94px 0;
+}
 
+.clients-title {
+    margin-bottom: 50px;
+}
+
+.clients-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clients-link {
+    display: block;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    text-align: center;
+    padding: 16px 32px;
+}
 
 
 
 /* ------------------------------------------------------------------------------Footer------- */
 footer {
-    height: 100px;
+    height: 300px;
     background-color: #2F303A;
 }
