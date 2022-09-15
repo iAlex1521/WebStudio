@@ -44,7 +44,7 @@ header{
     align-items: center;
 }
 
-.header-logo {
+.logo {
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
@@ -53,7 +53,7 @@ header{
     margin-right: 93px;
 }
 
-.header-logo > span{
+.logo > span{
     color: #2196F3;
 }
 
@@ -108,7 +108,7 @@ h1{
     align-items: center;
     letter-spacing: 0.06em;    
     color: #FFFFFF;
-    background: #2196F3;
+    background-color: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     padding: 10px 32px;
@@ -309,6 +309,101 @@ h1{
 
 /* ------------------------------------------------------------------------------Footer------- */
 footer {
-    height: 300px;
     background-color: #2F303A;
+}
+
+.footer{
+    display: flex;
+    padding: 60px 0;
+    justify-content: space-between;
+}
+
+.footer-left {
+    display: flex;
+    width: 507px;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 24.6px;
+    display: block;
+}
+
+.address > p {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;    
+    color: #FFFFFF;
+    margin-bottom: 7px;
+    font-style: normal;
+}
+
+.address > a {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;    
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    margin-bottom: 6px;
+    display: block;
+}
+
+
+.footer-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;    
+    color: #FFFFFF;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.footer-list {
+    display: flex;
+    width: 206px;
+    justify-content: space-between;
+}
+
+.footer-list > li {
+    width: 44px;
+    height: 44px;
+}
+
+.footer-link {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form {
+    display: flex;
+    gap: 12px;
+}
+.input {
+    width: 358px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;    
+    color: rgba(255, 255, 255, 0.6);
+    padding-left: 16px;
+    background-color: #2F303A;;
+}
+.footer-button {
+    background: url(../img/icons/telegram.svg) 148px no-repeat;
+    background-color: #2196F3;
+    padding-left: 29px;
+    padding-right: 28px;
+    width: 200px;
+    cursor: pointer;
 }
