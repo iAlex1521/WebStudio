@@ -491,3 +491,23 @@ footer {
 .footer-button:focus {
     box-shadow: -1px 1px 4px #FFFFFF;
 }
+
+
+
+/* ----------------------------------------------------------------contacts------- */
+.contacts {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-around
+}
+
+.contacts-title {
+    padding-top: 30px;
+    font-size: 22px;
+}
+
+.contacts-address >a,
+.contacts-address >p{
+    color: #757575;
+}
+
