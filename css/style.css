@@ -21,11 +21,14 @@ body{
     flex-direction: column;
     font-family: Roboto;
 }
-
+main {
+    flex: 1 1 auto;
+}
 
 /* ------------------------------------------------------------------------------Header------- */
 header{
     padding: 25.5px 0;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .container{
@@ -470,6 +473,11 @@ footer {
     background-color: #2F303A;;
 }
 
+.input:hover,
+.input:focus {
+    box-shadow: -1px 1px 4px #FFFFFF;
+}
+
 .footer-button {
     background: url(../img/icons/telegram.svg) 148px no-repeat;
     background-color: #2196F3;
@@ -481,5 +489,5 @@ footer {
 
 .footer-button:hover,
 .footer-button:focus {
-    box-shadow: -1px 1px 4px #FFFFFF
+    box-shadow: -1px 1px 4px #FFFFFF;
 }
