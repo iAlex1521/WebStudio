@@ -204,7 +204,7 @@ header {
 /* ------------------------------------------------------------------------------section Hero------- */
 .hero {
   height: 600px;
-  background: url(/img/hero.jpg) 0 0 / cover no-repeat;
+  background: url(../img/hero.jpg) 0 0 / cover no-repeat;
 }
 
 h1 {
@@ -619,8 +619,8 @@ footer {
   justify-content: space-between;
 }
 
-.filters-item {
-}
+/* .filters-item {
+} */
 
 .filters-button {
   font-size: 16px;
